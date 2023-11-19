@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial.scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image" href="Zdjecia/Logo2.png">
+
+	<title>Kraina planszówek</title>
+
+</head>
+<body>
+	<section class="everything">
+		<!-- <header>
+			<h1 style="text-align: center;">Planszówki</h1>
+		</header> -->
+		<!-- <div class="homeheader">
+			<h1>Kraina planszówek</h1>
+		</div> -->
+		<img id="headerimage" src="Zdjecia/header-image.png">
+		<nav>
+			<div class="topnavigation" id="topnav">
+				<a id="mainbutton"><b>Start</b></a>
+				<a id="easygamesbut">Dla początkujących</a>
+				<a id="compgamesbut">Dla zaawansowanych</a>
+				<a id="onlinebut">Planszówki online</a>
+				<a id="form">Ankieta</a>
+				<a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+
+		<nav>
+			<div class="topnavforgames" id="easygamesnav" style="display: none;">
+				<a href="#idCar">Carcassonne</a>
+				<a href="#idAzul">Azul</a>
+			</div>
+		</nav>
+
+		<nav>
+			<div class="topnavforgames" id="compgamesnav" style="display: none">
+				<a href="#idTerrMars">Terraformacja Marsa</a>
+				<a href="#idOdin'sFeast">Uczta dla Odyna</a>
+			</div>
+		</nav>
+
+		<nav>
+			<div class="topnavforgames" id="onlinenav" style="display: none">
+				<a href="#idBGA">Board Game Arena</a>
+				<a href="#idTabletop">Tabletopia</a>
+			</div>
+		</nav>
+
+		<section class="flex-container" id="home">
+
+			<div class="text">
+				<article class="writtentext">
+					Gry planszowe są rozrywką, z którą każdy z nas miał kiedyś do czynienia, czy to jako dziecko, nastolatek, czy dorosła osoba - na pewno graliśmy w przynajmniej jedną grę planszową. Jednak gier planszowych jest bardzo wiele i czasami można mieć dylemat, w którą zagrać? Wiele gier jest prostych, szybkich, ale są też takie, w które gra się godzinami a ich instrukcje mają dziesiątki stron. Na tej stronie przybliżę Ci kilka planszówek, w które osobiście bardzo lubię grać - takich, których zasad można się szybko nauczyć i takich, na których naukę trzeba chwilę czasu poświęcić.
+					<p>
+						W zakładce <a id="intexteasybut" class="onclick">Dla początkujących</a> znajdziesz gry, które są przystępne i po kilku minutach nauki już można w nie grać. Nie oznacza to jednak, że są to gry w którcyh łatwo jest zostać mistrzem - są to gry, w które rozgrywane są nawet Mistrzostwa Świata, więc są naprawdę konkurencyjne.
+					</p>
+
+					<p>
+						<a id="intextcompbut" class="onclick">Dla zaawansowanych</a>, to zakładka, która przedstawi Ci kilka gier o dość dużej złożoności. Są to gry, w których przyda się tak zwane <q>ogranie</q> w prostsze, mniej skomplikowane planszówki. Jeśli jesteś osobą, która chętnie grywa w gry bez prądu i lubi wyzwania, to śmiało odwiedź tę zakładkę i poznaj gry, o których być może jeszcze nigdy nie słyszałeś.
+					</p>
+					<p>
+						Zakładka <a id="intextonlinebut" class="onclick">Planszówki online</a> dotyczy natomiast aplikacji, stron i serwisów internetowych, które umożliwiają granie w gry planszowe online. Jest to znakomite zastępstwo fizycznych gier, jeżeli nie mamy z kim zagrać lub gdzie.
+					</p>
+				</article>
+			</div>
+			<div class="main_side">
+				<img class="meimage" src="Zdjecia/terraformacja-marsa-main.jpg">
+				<img class="meimage" src="Zdjecia/Carcassonne-main.png">
+			</div>
+		</section>
+
+		<section class="flex-container" id="easygames" style="display: none;">
+
+			<!--Carcassonne-->
+			<div class="game" id="idCar">
+				<div class="overview">
+					<img src="Zdjecia/Carcassonne/Carcassonne-cover-square.png">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Elementy gry:</b> Budowanie obszarów, gospodarowanie podwładnymi
+						<br><b>Liczba graczy:</b> 2-5
+						<br><b>Czas trwania:</b> 30-60 minut
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						<b>Carcassonne</b> to gra znana na całym świecie, sprzedana w <b>kilkunastu milionach</b> egzemplarzy. Jest to świetna pozycja dla graczy zaczynających przygodę z planszówkami, jak i dla tych już ogranych.
+						<p>
+							Jako gracze wcielamy się w <b>budowniczych</b> francuskiego miasta Carcassonne, którzy dokładają kolejne fragmenty miasta i delegują swoich podwładnych do zarządzania różnymi miejscami: <b>zamkami</b>, <b>drogami</b>, czy <b>klasztorami</b>. Można również wysłać swojego podwładnego na <b>pole</b>, aby tam pracował. Za każdą zakończoną budowę zdobywamy punkty, a wygrywa ten gracz, który zgromadzi ich najwięcej.
+						</p>
+						<p>
+							Gra oferuje bardzo dużo <b>dodatków</b> - oficjalnych dużych dodatków jest aż <b>10</b>, ale są też małe, które co chwile się pojawiają. Rozszerzają one rozgrywkę wprowadzając nowe kafelki, nowe postaci i nowe funkcje. W ten sposób może się ona wydłużyć nawet do <b>kilku godzin</b>.
+						</p>
+						<p>
+							Co roku rozgrywane są <b>Mistrzostwa Świata</b> w Carcassonne, które cieszą się niemałą popularnością, a od kilku lat również Drużynowe Mistrzostwa Świata. W obu konkurencjach startują zawodnicy ze wszystkich stron świata.
+						</p>
+					</article>
+				</div>
+					
+				<img id="Carrozgrywka" src="Zdjecia/Carcassonne/Car-gra-ok.jpg" alt="Rozgrywka">
+				<img id="Cardodatki" src="Zdjecia/Carcassonne/Car-dodatki.png" alt="Wybrane dodatki">
+				<iframe src="https://www.youtube.com/embed/6rUWY53Dz5M?si=O6TR04OkXHLLDZ0e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+
+			<!--Azul-->
+			<div class="game" id="idAzul">
+				<div class="overview">
+					<img src="Zdjecia/Azul/azul-cover.jpg">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Elementy gry:</b> Wypełnianie własnej planszy, dobieranie żetonów
+						<br><b>Liczba graczy:</b> 2-4
+						<br><b>Czas trwania:</b> 30-60 minut
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						<b>Azul</b> jest grą, która zdobyła wiele nagród na światowych festiwalach. Jest przystępna, nieskomplikowana, ale wymaga logicznego myślenia, kombinowania i ciągłej obserwacji ruchów wszystkich graczy.
+						<p>
+							Nazwa gry pochodzi od nazwy ceramicznych, <b>hiszpańskich kafelków</b> - <b>Azulejos</b> - którymi przyozdabiano ściany pałaców (m.in. pałacu w <b>Alhambrze</b>). Jako gracze jestśmy <b>artystami</b>, którzy tworzą wzory z tych kafelków, kolejno dobierając płytki z warsztatów i układając się u siebie w magazynie. Następnie przenoszą je w ściśle określony sposób na ścianę i zliczają punkty. Zwycięża gracz z największą ich liczbą.
+						</p>
+						<p>
+							Azul oferuje dwa typy rozgrywki - w jednym układamy <b>ustalony wzór</b>, zaś w drugim tworzymy <b>własny</b>, ale zgodnie z określonymi zasadami. Można również dokupić inne kafelki, aby układane wzory były co raz to nowsze.
+						</p>
+					</article>
+				</div>
+				<img id="Azulplansza" src="Zdjecia/Azul/Azul-plansza.jpg" alt="Plansza gracza">
+				<img id="Azulwarsztaty" src="Zdjecia/Azul/Azul-warsztaty.jpg" alt="Warsztaty i kafelki">
+				<iframe src="https://www.youtube.com/embed/7ygt6qM5WdY?si=nmvpUup_tHKVKXq_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		
+		
+		<section class="flex-container" id="compgames" style="display: none;">
+
+			<!--Terraformacja marsa-->
+			<div class="game" id="idTerrMars">
+				<div class="overview">
+					<img src="Zdjecia/TerraformacjaMarsa/Terraformacja-Marsa-cover.jpg">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Elementy gry:</b> Zagrywanie kart, wypełnianie planszy, rozwój swojej korporacji
+						<br><b>Liczba graczy:</b> 1-5
+						<br><b>Czas trwania:</b> 90-240 minut
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						<b>Terraformacja Marsa</b> to gra stworzona przez czterech <b>braci Fryxelius</b>, która jest jedną z najpopularniejszych gier na świecie o tematyce kosmicznej.
+						<p>
+							Jako szefowie potężnych ziemskich korporacji, my, gracze mamy za zadanie przysposobić planetę <b>Mars</b> do życia. Możemy to robić poprzez zagrywanie <b>kart projektów</b>, czy umieszczanie różnorakich <b>obszarów</b> na powierzchni planety. Z biegiem rozgrywki podnosimy poziomy produkcji poszczególnych <b>surowców</b> na swoich planszach i zwiększamy swój <b>Współczynnik Terraformacji</b>, który zapewnia niezbędne Megakredyty - pieniądze. Kiedy planeta będzie już przystosowana do ludzkiego życia podliczane są punkty za wszelakie projekty i obszary, a zwycięża korporacja, która zgromadzi ich najwięcej.
+						</p>
+						<p>
+							Oczywiście rozgrywkę można rozszerzyć różnymi dodatkami. Pozwalają one m.in. zakładać <b>kolonie</b> na <b>księżycach innych planet</b>, czy terraformować <b>Wenus</b>. Wydłużają one rozgrywkę, ale jednocześnie wprowadzają do niej mnóstwo nowych kart projektów i nowych zagrań. Jest to świetna opcja dla graczy, którzy już zapoznali się z mechaniką gry i szukają nowych wyzwań.
+						</p>
+						<p>
+							<b>Autorzy</b> Terraformacji Marsa zadbali o najmniejsze szczegóły. Na planszy można znaleźć <b>prawdziwe obszary</b> występujące na planecie, a na kartach projektów <b>zdjęcia i koncepcje NASA</b>. Gra jest wizualnie doskonała i wszystkie grafiki są świetnie dopracowane.
+						</p>
+					</article>
+				</div>
+				<img id="Terrrozgrywka" src="Zdjecia/TerraformacjaMarsa/Terr-rozgrywka.jpg" alt="Rozgrywka">
+				<img id="Terrdodatki" src="Zdjecia/TerraformacjaMarsa/Terr-dodatki.png" alt="Dodatki">
+				<iframe src="https://www.youtube.com/embed/E6QAi9oTA48?si=iN-9GYLWM9sWwEF-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+
+			<!--Uczta dla Odyna-->
+			<div class="game" id="idOdin'sFeast">
+				<div class="overview">
+					<img src="Zdjecia/UcztadlaOdyna/Uczta-dla-Odyna-cover.jpg">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Elementy gry:</b> Zakrywanie własnych planszy, gospodarowanie podwładnymi, rozwój swojej wioski
+						<br><b>Liczba graczy:</b> 2-4
+						<br><b>Czas trwania:</b> 90-180 minut
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						Autorem <b>Uczty dla Odyna</b> jest bardzo znany w świecie gier planszowych <b>Uwe Rosenberg</b>. Jego gry słyną z ciekawych mechanik i nie inaczej jest z Ucztą dla Odyna, która łączy takich kilka.
+						<p>
+							Będąc <b>wodzem osady wikingów</b>, każdy gracz ma za zadanie wysyłać swoich poddanych do podejmowania przeróżnych <b>akcji</b>, zapewniających natychmiastowo lub w przyszłości punkty. Mogą oni budować statki i domy, kolonizować wyspy, rabować, czy zdobywać pożywienie. Poprzez te akcje, zdobywamy <b>płytki</b> różnych surowców, z których każda ma inny rozmiar, a następnie umieszczamy je na planszy osady, bądź planszach wysp i budynków, <b>zakrywając</b> pola. Celem gry jest zdobycie jak największej liczby punktów, których większą część możemy zdobyć (a raczej nie stracić) zakrywając pola na planszach.
+						</p>
+						<p>
+							Mechanika gry zapewnia różnorodność każdej rozgrywki. Do wyboru mamy ponad <b>60</b> akcji, więc za każdym razem możemy wybrać inną ścieżkę rozwoju i prowadzić swoją wioskę w innym kierunku - zająć się <b>kolonizacją wysp</b> albo <b>hodowlą zwierząt</b>, a może zdecydować się na <b>rabunki</b> i <b>połowy wielorybów</b>. Każda z opcji może doprowadzić nas do sukcesu, ale podobnie może przyczynić się do porażki, kiedy poprowadzimy swoich poddanych nie tak jak trzeba.
+						</p>
+					</article>
+				</div>
+				<img id="Ucztazawartosc" src="Zdjecia/UcztadlaOdyna/Uczta-zawartosc.jpg" alt="Wszystkie elementy gry">
+				<img id="Ucztaplanszagracza" src="Zdjecia/UcztadlaOdyna/Uczta-plansza-gracza.jpg" alt="Plansza gracza">
+				<iframe src="https://www.youtube.com/embed/Z9cSsshBrss?si=fa4oi4qBiRxLA3dG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section class="flex-container" id="online" style="display: none;">
+
+			<!--Board Game Arena-->
+			<div class="game" id="idBGA">
+				<div class="overview">
+					<img src="Zdjecia/BoardGameArena/BGA-overview.png">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Liczba dostępnych gier:</b> 750+
+						<br><b>Data powstania:</b> 2010
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						<b>Board Game Arena</b> to platforma stworzona przez <b>Grégory Isabelli</b> i <b>Emmanuel Colin</b>, których pomysł był prosty - stworzyć miejsce, które ułatwiłoby ludziom wspólne rozgrywki.
+						<p>
+							Na platformie obecnie jest ponad <b>9 milionów</b> graczy, którzy każdego dnia rozgrywają średnio <b>200 000 partii</b>. Oferuje ona niesmowitą różnorodność gier planszowych - od szybkich, prostych i klasycznych jak 4 w linii, po gry, których rozgrywka trwa godzinami jak np. Uczta dla Odyna.  Interfejs każdej rozgrywki jest przemyślany i jasny, tak jak interfejs całej platformy.
+						</p>
+						<p>
+							Możemy tu rozgrywać partie w dwóch trybach - <b>rzeczywistym</b> i <b>turowym</b>. Pierwszy z nich zapewnia rozgrywkę w czasie rzeczywistym, zaś drugi taką, w której na wykonanie ruchu możemy mieć kilka godzin albo dni. Pozwala ona każdemu grać w planszówki, bo nie każdy może znaleźć czas na pełną, ciągłą rozgrywkę. Partie mogą być <b>rankingowe</b> lub <b>szkoleniowe</b>. Oczywiście możemy liczyć na różne <b>osiągnięcia</b> związane z postępem i pięcięm się we wszelkich rankingach.
+						</p>
+						<p>
+							Wszystkie gry dostępne na BGA są <b>darmowe</b>, ale do utworzenia partii niektórych z nich trzeba posiadać <b>konto Premium</b>. Nie oznacza to jednak, że posiadając darmowe konto w ogóle nie możemy w nie zagrać, bowiem wystarczy, że ktoś utworzy stół dla takiej rozgrywki - wtedy możemy bezproblemowo dołączyć do takiej rozgrywki i rozgrać partię naszej ululbionej planszówki.
+						</p>
+					</article>
+				</div>
+				<img id="BGACar" src="Zdjecia/BoardGameArena/BGA-Car.jpg" alt="Carcassonne na BGA">
+				<img id="BGAAzul" src="Zdjecia/BoardGameArena/BGA-Azul.png" alt="Azul na BGA">
+				<img class="borderimage" id="BGAOsiagniecia" src="Zdjecia/BoardGameArena/BGA-osiagniecia.png" alt="Osiągnięcia do zdobycia na BGA">
+			</div>
+
+			<!--Tabletopia-->
+			<div class="game" id="idTabletop">
+				<div class="overview">
+					<img src="Zdjecia/Tabletopia/Tabletopia-overview.png">
+					<hr style="width: 80%;">
+					<article class="writtentext"><b>Liczba dostępnych gier:</b> Prawie 2500
+						<br><b>Data powstania:</b> 2016
+					</article>
+				</div>
+				<div class="gametext">
+					<article class="writtentext">
+						<b>Tabletopia</b> jest platformą stworzoną przez korporację o tej samej nazwie, która najpierw była oparta o serwis internetowy, na który środki zebrano poprzez crowdfunding. Obecnie dostępna jest również aplikacja mobilna platformy.
+						<p>
+							Tabletopia oferuje astronomiczną liczbę gier. Dzięki temu możemy grać w praktycznie wszystkie planszówki - te znane na całym świecie i te trochę mniej rozpoznawalne. Rozgrywki są przeprowadzane trybie <b>free-for-all</b>, czyli trybie bez kolejności ruchów (oczywiście zgodnie z zasadami gry), lub w trybie <b>turowym</b>.
+						</p>
+						<p>
+							Konta na platformie mogą być jednego z trzech rodzajów: <b>Bronze</b>, <b>Silver</b> lub <b>Gold</b>. Konto Bronze oferuje możliwość gry w większość planszówek, jednak nie tych o statusie Premium. Jest jednak wyjście z tej sytuacji - gracz o statusie Gold może zaprosić gracza z takim kontem do rozgrywki Premium. Konto Silver z kolei zapewnia dodatkowo możliwość tworzenia stołów do gier Premium, a konto Gold umożliwia ponadto zapraszanie graczy do stołów Premium.
+						</p>
+						<p>
+							Tabletopia pozwala również tworzyć gry bez konieczności umiejętności programowania. Dzięki temu liczba dostępnych gier stale się powiększa i każdy z nas może zostać następnym twórcą.
+						</p>
+					</article>
+				</div>
+				<img id="TabletopiaWingspan" src="Zdjecia/Tabletopia/Tabletopia-Wingspan.jpg" alt="Na skrzydłach na platformie Tabletopia">
+				<img id="TabletopiaTerra" src="Zdjecia/Tabletopia/Tabletopia-Terra-Mystica.jpg" alt="Terra Mystica na platformie Tabletopia">
+				<img class="borderimage" id="TabletopiaMobile" src="Zdjecia/Tabletopia/Tabletopia-mobile.png" alt="Tabletopia na urządzeniach mobilnych">
+			</div>
+		</section>
+
+
+		<section class="flex-container" id="formdiv" style="display: none;">
+
+			<!--Formularz-->
+			<form>
+				<div class="formtitle">
+					<label>Ankieta, która pozwoli mi dowiedzieć się, jakie gry Was interesują</label><br><br>
+				</div>
+				
+				<div class="col-25">
+					<label class="mainlabel" for="firstname">Imię:</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="firstname" id="firstname" onkeyup = "validateName()"><br><br>
+				</div>
+				<div style="width: 100%;">
+					<span class="error" id="nameerror" style="display: none;">To nie jest imię</span>
+				</div>
+				<div class="col-25">
+					<label class="mainlabel">Wiek:</label>
+				</div>
+				<div class="col-75">
+					<input type="radio" name="age" id="1015">
+					<label for="1015">10-15</label><br>
+					<input type="radio" name="age" id="1625">
+					<label for="1625">16-25</label><br>
+					<input type="radio" name="age" id="2640">
+					<label for="2640">16-25</label><br>
+					<input type="radio" name="age" id="40">
+					<label for="40">40+</label><br><br>
+				</div>
+				
+				<div class="col-25">
+					<label class="mainlabel">Rodzaje gier, które Cię interesują:</label>
+				</div>
+				<div class="col-75">
+					<input type="checkbox" name="interested" id="strat">
+					<label for="strat">Strategiczne</label><br>
+					<input type="checkbox" name="interested" id="adven">
+					<label for="adven">Przygodowe</label><br>
+					<input type="checkbox" name="interested" id="coop">
+					<label for="coop">Kooperacyjne</label><br><br>
+				</div>
+
+				<div class="col-25">
+					<label class="mainlabel">Znasz te tytuły?:</label>
+				</div>
+				<div class="col-75">
+					<input type="checkbox" name="maybe" id="train">
+					<label for="train">Wsiąść do Pociągu: Europa</label><br>
+					<input type="checkbox" name="maybe" id="catan">
+					<label for="catan">Osadnicy z Catanu</label><br>
+					<input type="checkbox" name="maybe" id="genius">
+					<label for="genius">Geniusz</label><br><br>
+				</div>
+				
+				<div style="width: 100%;">
+					<label class="mainlabel" for="mail">Podaj swój e-mail, żebym mógł wysłać Ci Newsletter:</label>
+				</div>
+				<div style="width: 95%;">
+					<input type="text" name="mail" id="mail" onkeyup = "validateEmail()"><br><br>
+				</div>
+				<div style="width: 100%;">
+					<span class="error" id="emailerror" style="display: none;">Podaj prawidłowy e-mail</span>
+				</div>
+
+				<div style="width: 100%;">
+					<button class="validatebut" onclick="return validateForm()">Wyślij</button>
+					<input class="validatebut" type="reset" name="resetinfo" value="Wyczyść" onclick="return resetForm()">
+				</div>
+				<span class="error" id="submiterror" style="display: none; margin-top: 1%;">Nieprawidłowe dane</span>
+			</form>
+		</section>
+
+		<footer>
+			Copyright &copy;: Tomasz Paja 2023
+		</footer>
+	</section>
+
+	<section id="mybigimg" class="bigimage">
+		<span class="close">&times</span>
+		<img class="frontimage" id="img01">
+		<div id="caption"></div>
+	</section>
+	
+	<script>
+		//Wybór podstron i przyciski
+		function articles(name1, name2) {
+			var main1 = document.getElementsByClassName("flex-container");
+			for (let m1 of main1) {
+				m1.style.display = "none";
+			}
+
+			var main2 = document.getElementsByClassName("topnavforgames");
+			for (let m2 of main2) {
+				m2.style.display = "none";
+			}
+
+			var element1 = document.getElementById(name1);
+			element1.style.display = "flex";
+
+			var element2 = document.getElementById(name2);
+			element2.style.display = "flex";
+		};
+
+		var intexteasybutton = document.getElementById("intexteasybut");
+		intexteasybutton.addEventListener("click", () => {articles("easygames", "easygamesnav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"});
+
+		var intextcomplicatedbutton = document.getElementById("intextcompbut");
+		intextcomplicatedbutton.addEventListener("click", () => {articles("compgames", "compgamesnav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"});
+
+		var intextonlinebutton = document.getElementById("intextonlinebut");
+		intextonlinebutton.addEventListener("click", () => {articles("online", "onlinenav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"})
+
+
+
+		var startbutton = document.getElementById("mainbutton");
+		startbutton.addEventListener("click", () => {document.getElementById("topnav").style.borderRadius = "10px", articles("home", "")});
+
+		var easygamesbutton = document.getElementById("easygamesbut");
+		easygamesbutton.addEventListener("click", () => {articles("easygames", "easygamesnav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"});
+
+		var complicatedgamesbutton = document.getElementById("compgamesbut");
+		complicatedgamesbutton.addEventListener("click", () => {articles("compgames", "compgamesnav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"});
+
+		var onlinebutton = document.getElementById("onlinebut");
+		onlinebutton.addEventListener("click", () => {articles("online", "onlinenav"), document.getElementById("topnav").style.borderBottomLeftRadius = "0px", document.getElementById("topnav").style.borderBottomRightRadius = "0px"})
+
+		var form = document.getElementById("form");
+		form.addEventListener("click", () => { document.getElementById("topnav").style.borderRadius = "10px", articles("formdiv", "")})
+
+
+		//Responsywna nawigacja
+		function responsiveNav() {
+			var x = document.getElementById("topnav");
+			if (x.className === "topnavigation") {
+				x.className += " responsive";
+			}
+			else {
+				x.className = "topnavigation";
+			}
+		}
+
+
+		//Zdjęcia, które po kliknięciu powiększają się
+		var divimg = document.getElementById("mybigimg");
+		var biggerimg = document.getElementById("img01");
+		var captiontext = document.getElementById("caption");
+		var span = document.getElementsByClassName("close")[0];
+
+		span.onclick = function() {
+			divimg.style.display = "none";
+		}
+
+
+		function makeImgBigger(name) {
+			var img = document.getElementById(name);
+
+			img.onclick = function() {
+				divimg.style.display = "block";
+				biggerimg.src = this.src;
+				captiontext.innerHTML = this.alt;
+			}
+		}
+
+		makeImgBigger("Carrozgrywka");
+		makeImgBigger("Cardodatki");
+
+		makeImgBigger("Azulplansza");
+		makeImgBigger("Azulwarsztaty");
+
+		makeImgBigger("Terrrozgrywka");
+		makeImgBigger("Terrdodatki");
+
+		makeImgBigger("Ucztazawartosc");
+		makeImgBigger("Ucztaplanszagracza");
+
+		makeImgBigger("BGACar");
+		makeImgBigger("BGAAzul");
+		makeImgBigger("BGAOsiagniecia");
+
+		makeImgBigger("TabletopiaWingspan");
+		makeImgBigger("TabletopiaTerra");
+		makeImgBigger("TabletopiaMobile");
+
+
+
+		//Form validation
+		var nameError = document.getElementById("nameerror");
+		var emailError = document.getElementById("emailerror");
+		var submitError = document.getElementById("submiterror");
+
+		function validateName(){
+		    var name = document.getElementById("firstname").value;
+			var inputname = document.getElementById("firstname");
+
+		    if(name.length == 0){
+		        nameError.innerHTML = "Imię jest wymagane";
+		        nameError.style.display = "block";
+		        inputname.style.backgroundColor = "red";
+		        return false;
+		    }
+
+		    if(!name.match(/^[A-Za-z]+$/)){
+		        nameError.innerHTML = "Podaj prawidłowe imię";
+		        nameError.style.display = "block";
+		        inputname.style.backgroundColor = "red";
+		        return false;
+		    }
+
+		    inputname.style.backgroundColor = "lightgreen";
+		    nameError.style.display = "none";
+		    return true;
+		}
+
+		function validateEmail(){
+		    var email = document.getElementById("mail").value;
+			var inputemail = document.getElementById("mail");
+
+		    if(email.length == 0){
+		        emailError.innerHTML = "Email jest wymagany";
+		        emailError.style.display = "block";
+		        inputemail.style.backgroundColor = "red";
+		        return false;
+		    }
+
+		    if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+		        emailError.innerHTML = "Email nieprawidłowy";
+		        emailError.style.display = "block";
+		        inputemail.style.backgroundColor = "red";
+		        return false;
+		    }
+
+		    inputemail.style.backgroundColor = "lightgreen";
+		    emailError.style.display = "none";
+		    return true;
+		}
+
+		function validateForm(){
+		    if(!validateName() || !validateEmail()){
+		        submitError.style.display = "block";
+		        submitError.innerHTML = "Napraw błędy";
+		        setTimeout(function(){submitError.style.display = "none"}, 5000)
+		        return false;
+		    }
+
+		}
+
+		function resetForm() {
+			var inputname = document.getElementById("firstname");
+			var inputemail = document.getElementById("mail");
+
+			inputname.style.backgroundColor = "white";
+			inputemail.style.backgroundColor = "white";
+
+			var nameError = document.getElementById("nameerror");
+			var emailError = document.getElementById("emailerror");
+			var submitError = document.getElementById("submiterror");
+
+			nameError.style.display = "none";
+			emailError.style.display = "none";
+			submitError.style.display = "none";
+		}
+	</script>
+
+	
+</body>
+</html>
